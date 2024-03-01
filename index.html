@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styleS.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <script src="./assets/js/index.js" defer></script>
+    <script rel="preconnect" src="https://kit.fontawesome.com/18daa0a83b.js" crossorigin="anonymous"></script>
+    <title>Vin Souza</title>
+</head>
+<body>
+    <header class="dark-background">
+        <ul id="contact">
+            <li id="location">
+                <i class="fa-solid fa-location-dot"   aria-hidden="true"></i>&nbsp;
+                <span>Vancouver, Canada</span>
+            </li>
+            <li>
+                <a href="tel:+1236-660-9875" aria-label="Call me" tabindex="0">
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:vinicius.abner1039@gmail.com" target="_blank" aria-label="E-mail me"  tabindex="1">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/v1n1c1u" target="_blank" aria-label="My Github"  tabindex="2">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/vinicius-abner" target="_blank" aria-label="My Linkedin"  tabindex="3">
+                    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+        <div id="banner">
+            <div id="banner-text">
+                <h1><span>Hey,</span><span>I'm Vin</span></h1>
+                <p> and I'm a full-stack web developer
+                    <br><br>
+                    I like football, drawing, creating cool websites and making my mom proud
+                </p>
+            </div>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li aria-hidden="true" class="empty-space"></li>
+                <li aria-hidden="true" class="empty-space"></li>
+                <li><button onclick="scrollToMyself()" id="self" class="bordered">myself</button></li>
+                <li><button onclick="scrollToExperience()" class="bordered">experience</button></li>
+                <li><button onclick="scrollToPortfolio()" class="bordered">portfolio</button></li>
+                <li><button onclick="scrollToSkills()">skills</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div aria-hidden="true" class="transition dark-light"><div class="transition-pattern-div"></div></div>
+    <main>
+        <section id="myself-section" class="light-background">
+            <div class="content">
+                <h2>Myself</h2>
+                <p>
+                    <span>
+                    Well, my actual name is Vinícius <i>[viˈnisjus]</i>, but Vin it's easier for most people. I'm a 24 years old computer scientist and full-stack web developer from Brazil and I'm currently living the latino dream of living outside of Latin America, namely, Canada.
+                    <br>
+                    I didn't know what field in Computer Science to follow after graduation until I got a glimpse of web design and development and found out that there is room for artistic expression and fun creative processes on programming! Long story short, here I am.
+                    <br>
+                    Oh, and I'm not from Rio de Janeiro, though. But what can I say, no other place in Brazil has such a cool postal card!
+                    </span>
+                </p> 
+            </div>
+            <div aria-hidden="true" id="rio-sketch-div"></div>  
+        </section>
+        <div aria-hidden="true" class="transition light-dark"><div class="transition-pattern-div"></div></div>
+        <section id="experience-section" class="dark-background">
+            <div class="content" id="experience-content">
+                <h2>Experience</h2>
+                <ul class="grid" id="timeline-grid">
+                    <li>
+                        <div class="date loading">2024 ...</div>
+                        <div class="title left">Post-Degree in Web & Mobile Development</div>
+                        <div class="place left" >Langara College - <span>Vancouver, Canada</span></div>
+                        <div class="descr left">
+                            With a focus on academic excellence, Langara College prepares students for careers in various industries or for further education at universities. I'm so honored to be a student there!
+                            <br><br>
+                            Currently I'm pursuing the 18 months Post-Degree Diploma in Web and Mobile App Development program with the expected graduation date being August 2025
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date finished">2023</div>
+                        <div class="title">Backend Web Developer</div>
+                        <div class="place">Wipro - <span>Recife, Brazil</span></div>
+                        <div class="descr">
+                            Wipro Limited is one of the largest IT services, global information technology, consulting, and business process services company on the world, headquartered in Bangalore, India.
+                            <br><br>
+                            On their brazilian branch I worked as a junior web developer with a higher focus on backend development with <span>.NET</span>, but with some ponctual but advanced uses of <span>HTML5</span>, <span>CSS3</span> and <span>SQL</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date finished">2021</div>
+                        <div class="title left">Full-Stack Web Development Intern</div>
+                        <div class="place left">Millennium Impressos Eletrônicos - <span>Campina Grande, Brazil</span></div>
+                        <div class="descr left">
+                            Millennium IE is a local printshop based on the same city I went to university.
+                            During my 10 months as an intern there I worked on several web apps maintained by the company as a full-stack web developer.
+                            <br><br>
+                            All the systems were built with <span>Java</span>, <span>HTML5</span> and <span>CSS3</span>, as well as several frameworks  and tools such as <span>Primefaces</span>, <span>JPA</span>, <span>Oracle SQL</span>, and <span>Maven</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date finished">2018-2023</div>
+                        <div class="title">Bachelor Degree in Computer Science</div>
+                        <div class="place">UFCG - <span>Campina Grande, Brazil</span></div>
+                        <div class="descr">
+                            The UFCG Computer Science course is one of the oldest and most celebrated in the IT field throughout Brazil, always featuring among the top 10 best Computer Science courses in the country
+                            <br><br>
+                             The four years program taught me a little bit of everything about computers, and it helped me to discover my love for web development!
+                        </div>
+                    </li>
+                </ul>
+            </div>  
+        </section>
+        <div aria-hidden="true" class="transition dark-light"><div class="transition-pattern-div"></div></div>
+        <section id="portfolio-section" class="light-background">
+            <div class="content">
+                <h2>Portfolio</h2>
+                <div class="grid" id="portfolio-grid">
+                    <div class="grid-item">
+                        <div id="js-calculator" class="portfolio-item-thumbnail">
+                            <a href="https://v1n1c1u.github.io/Calculator/html/index.html" target="_blank" class="portfolio-item">
+                                <div class="portfolio-item-description">
+                                    <h3>JS Calculator</h3>
+                                    <div class="portfolio-item-tags">
+                                        <span class="portfolio-item-tag">HTML</span>
+                                        <span class="portfolio-item-tag">CSS</span>
+                                        <span class="portfolio-item-tag">JavaScript</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div  id="tour-of-heroes" class="portfolio-item-thumbnail">
+                            <a href="https://github.com/v1n1c1u/TourOfHeroes" target="_blank" class="portfolio-item">
+                                <div class="portfolio-item-description">
+                                    <h3>Tour Of Heroes</h3>
+                                    <div class="portfolio-item-tags">
+                                        <span class="portfolio-item-tag">HTML</span>
+                                        <span class="portfolio-item-tag">CSS</span>
+                                        <span class="portfolio-item-tag">TypeScript</span>
+                                        <span class="portfolio-item-tag">Angular</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div  id="react-calculator" class="portfolio-item-thumbnail">
+                            <a href="https://github.com/v1n1c1u/React-Calculator" target="_blank" class="portfolio-item">
+                                <div class="portfolio-item-description">
+                                    <h3>React Calculator</h3>
+                                    <div class="portfolio-item-tags">
+                                        <span class="portfolio-item-tag">HTML</span>
+                                        <span class="portfolio-item-tag">CSS</span>
+                                        <span class="portfolio-item-tag">JavaScript</span>
+                                        <span class="portfolio-item-tag">React</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div id="springboot-demo" class="portfolio-item-thumbnail">
+                            <a href="https://github.com/v1n1c1u/SpringBootDemoProject" target="_blank" class="portfolio-item">
+                                <div class="portfolio-item-description">
+                                    <h3>Spring Boot Demo</h3>
+                                    <div class="portfolio-item-tags">
+                                        <span class="portfolio-item-tag">HTML</span>
+                                        <span class="portfolio-item-tag">CSS</span>
+                                        <span class="portfolio-item-tag">Java</span>
+                                        <span class="portfolio-item-tag">SpringBoot</span>
+    
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div id="jokenpo" class="portfolio-item-thumbnail">
+                            <a href="https://v1n1c1u.github.io/JoKenPo/html/index.html" target="_blank" class="portfolio-item">
+                                <div class="portfolio-item-description">
+                                    <h3>JoKenPo</h3>
+                                    <div class="portfolio-item-tags">
+                                        <span class="portfolio-item-tag">HTML</span>
+                                        <span class="portfolio-item-tag">CSS</span>
+                                        <span class="portfolio-item-tag">JavaScript</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid-item"  id="view-more-github">
+                        <a href="https://github.com/v1n1c1u" target="_blank">
+                            <i aria-hidden="true" class="fa-brands fa-github"></i>
+                            <span>
+                                View more on my GitHub&nbsp;
+                                <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div aria-hidden="true" class="transition light-dark"><div class="transition-pattern-div"></div></div>
+        <section id="skills-section" class="dark-background">
+            <div class="content">
+                <h2>Skills</h2>
+                <div id="skills-certifications-grid" class="grid">
+                    <div id="skill-levels" class="grid">
+                        <div class="skill-group">
+                            <h3 class="skill-group-title">Computer Languages</h3>
+                            <span class="confidence-level">Confidence</span>
+                            <ul class="skill-list">
+                                <li><div class="skill-item">Java<div class="switch"><div class="advanced"></div></div></div></li>
+                                <li><div class="skill-item">Python<div class="switch"><div class="intermediate"></div></div></div></li>
+                                <li><div class="skill-item">HTML5<div class="switch"><div class="expert"></div></div></div></li>
+                                <li><div class="skill-item">CSS3<div class="switch"><div class="advanced"></div></div></div></li>
+                                <li><div class="skill-item">JavaScript<div class="switch"><div class="advanced"></div></div></div></li>
+                                <li><div class="skill-item">SQL<div class="switch"><div class="intermediate"></div></div></div></li>
+                            </ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3 class="skill-group-title">Human Languages</h3>
+                            <span class="confidence-level">Confidence</span>
+                            <ul class="skill-list">
+                                <li><div class="skill-item">English<div class="switch"><div class="advanced"></div></div></div></li>
+                                <li><div class="skill-item">Portuguese<div class="switch"><div class="expert"></div></div></div></li>
+                                <li><div class="skill-item">French<div class="switch"><div class="basic"></div></div></div></li>
+                            </ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3 class="skill-group-title">Frameworks</h3>
+                            <span class="confidence-level">Confidence</span>
+                            <ul class="skill-list">
+                                <li><div class="skill-item">SpringBoot<div class="switch"><div class="basic"></div></div></div></li>
+                                <li><div class="skill-item">Angular<div class="switch"><div class="basic"></div></div></div></li>
+                                <li><div class="skill-item">.NET<div class="switch"><div class="intermediate"></div></div></div></li>
+                                <li><div class="skill-item">Django<div class="switch"><div class="basic"></div></div></div></li>
+                                <li><div class="skill-item">React Js<div class="switch"><div class="intermediate"></div></div></div></li>
+                                <li><div class="skill-item">Vue Js<div class="switch"><div class="basic"></div></div></div></li>
+                            </ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3 class="skill-group-title">Softwares</h3>
+                            <span class="confidence-level">Confidence</span>
+                            <ul class="skill-list">
+                                <li><div class="skill-item">Photoshop<div class="switch"><div class="intermediate"></div></div></div></li>
+                                <li><div class="skill-item">Illustrator<div class="switch"><div class="basic"></div></div></div></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="certifications" class="cool-frame">
+                        <span class="certifications-decoration"></span><h3>Certifications</h3><span class="certifications-decoration"></span>
+                        <ul id="certificates-list">
+                            <li>
+                                <a href="https://courses.edx.org/certificates/bc857b54e42d436981747ef17f061d81" target="_blank" class="certificate-names"> Web Programming with Python and Javascript Professional Certificate &nbsp;<i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <span class="certificate-issuer">Harvard's CS50</span>
+                                <span class="certificate-earned">Earned 2021</span>
+                            </li>
+                            <li>
+                                <a href="https://courses.edx.org/certificates/9f7063b9f7ae4d84aa9b87541ba0c4e8" target="_blank"         class="certificate-names">CAD220EN: Cloud Apps with Node.js and React &nbsp;<i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <span class="certificate-issuer">IBM</span>
+                                <span class="certificate-earned">Earned 2021</span>
+                            </li>
+                            <li>
+                                <a href="https://drive.google.com/file/d/1WiL1xZrjg0BlXv2H_j7DZviGN3VSjI7g/view" target="_blank" class="certificate-names">Frontend Development Industry Training &nbsp;<i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <span class="certificate-issuer">Brainnest</span>
+                                <span class="certificate-earned">Earned 2022</span>
+                            </li>
+                            <li>
+                                <a href="https://courses.edx.org/certificates/4eee3c274a6d406893ea6df02093f0a6" target="_blank" class="certificate-names">Cybfun.1.0: Cybersecurity Basics &nbsp;<i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <span class="certificate-issuer">IBM</span>
+                                <span class="certificate-earned">Earned 2022</span>
+                            </li>
+                            <li>
+                                <a href="https://www.freecodecamp.org/certification/vinSouza/javascript-algorithms-and-data-structures" target="_blank" class="certificate-names">Javascript Algorithms and Data Structures Course &nbsp;<i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <span class="certificate-issuer">FreeCodeCamp</span>
+                                <span class="certificate-earned">Earned 2023</span>
+                            </li>
+                        </ul>
+                        <span id="view-more-linkedin">
+                            <a href="https://www.linkedin.com/in/vinicius-abner" target="_blank">
+                                <i aria-hidden="true" class="fa-brands fa-linkedin footer-icon"></i>
+                                View more on my LinkedIn
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div aria-hidden="true" class="transition transition-footer"><div class="transition-pattern-div"></div></div>
+    <footer>
+        <div>
+            <ul id="contact-footer">
+                <li>
+                    <a href="tel:+1236-660-9875">
+                        <i aria-hidden="true"  class="fa-solid fa-phone footer-icon"></i>
+                        Phone
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:vinicius.abner1039@gmail.com">
+                        <i aria-hidden="true"  class="fa-solid fa-envelope footer-icon"></i>
+                        E-mail
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/v1n1c1u" target="_blank">
+                        <i aria-hidden="true"  class="fa-brands fa-github footer-icon"></i>
+                        GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/vinicius-abner" target="_blank">
+                        <i aria-hidden="true"  class="fa-brands fa-linkedin footer-icon"></i>
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <span>Vinicius Souza <i aria-hidden="true" class="fa-regular fa-copyright"></i> 2024</span>
+    </footer>
+</body>
+</html>
