@@ -82,8 +82,7 @@ header{
     height: 100%;
     overflow: hidden;
     background-image: url('../images/my-sketch.svg');
-    background-size: 120%;
-    background-position: right;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 h1{
@@ -121,6 +120,9 @@ section .content {
     padding: 1vh 3vw;
 }
 section .content p{
+    display: block;
+    position: relative;
+    z-index: 2;
     width: 100%;
     font-size: 0.9em;
     word-wrap: unset;
@@ -128,7 +130,8 @@ section .content p{
 }
 /*SECTION TRANSITIONS AND BACKGROUND*/
 .transition{
-    height: 360px;
+    height: 24vh;
+    max-height: 360px;
 }
 .transition .transition-pattern-div{
     width: 100%;
@@ -205,7 +208,7 @@ section .content p{
     text-transform: uppercase;
     font-family: "Courier Prime", monospace;
     font-weight: 400;
-    font-size: clamp(12px,1.5rem,2rem);
+    font-size: 1rem;
     letter-spacing: 1.5px;
     width: 100%;
     position: absolute;
@@ -300,6 +303,7 @@ section .content p{
 #myself-section #rio-sketch-div{
     width: 100%;
     height: 100%;
+    position: relative;
     background-image: url('../images/rio-sketch.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -309,14 +313,13 @@ section .content p{
     width: 100%;
     text-align: left;
     height: 90%;
-    max-height: 350px;
     font-weight: 400;
 }
 #myself-section p span{
-    background-color: rgba(218, 255, 251, 0.7);
+    background-color: rgba(218, 255, 251, 0.75);
     padding: 5px;
     font-size: 1rem;
-    line-height: 29px;
+    line-height: 25px;
     word-break: keep-all;
 }
 #rio-sketch-div img{
@@ -973,7 +976,6 @@ footer span{
     nav{height: 15vh;}
     #menu{flex-direction: row;}
     #menu li{border-bottom: none !important;}
-    .empty-space{display: block !important;}
     #myself-section #rio-sketch-div{
         min-height: 450px;
         min-width: 100vw;
@@ -983,12 +985,14 @@ footer span{
     }
 }
 @media only screen and (min-width:550px){
+    #menu li button{
+        font-size: 1.2rem;
+    }
     #myself-section #rio-sketch-div{
         min-height: 450px;
         min-width: 100vw;
     }
     #myself-section p span{
-        font-size: 20px;
         font-weight: 400;
     }
     #portfolio-grid{
@@ -1016,9 +1020,12 @@ footer span{
     .skill-group .confidence-level{width: 99%;}
 }
 @media only screen and (min-width:900px){
+    .empty-space{display: block !important;}
+    #menu li button{font-size: 1.4rem;}
     #myself-section .content{height: 25vh;}
-    #myself-section p{max-width: 60%;}
+    #myself-section p{max-width: 85%;}
     #myself-section #rio-sketch-div{
+        right: -15%;
         min-height: 700px;
         min-width: 1000px;
     }
